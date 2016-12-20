@@ -1,0 +1,10 @@
+<textarea rows="10" cols="10" [(ngModel)]="snakecase"></textarea>
+{{ camelcase | json }}
+
+<button (click)="to()">to camelCase</button>
+
+
+<textarea rows="10" cols="10" [(ngModel)]="camelcase"></textarea>
+{{ snakecase | json }}
+
+<button (click)="from()">to snakecase</button>

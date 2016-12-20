@@ -2,13 +2,8 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { SnakelessService } from './snakeless.service';
 
 @NgModule({
-  imports: []
+  providers: [
+    SnakelessService
+  ]
 })
-export class SnakelessModule {
-  static forRoot(): ModuleWithProviders {
-    return {
-      ngModule: SnakelessModule,
-      providers: [SnakelessService]
-    };
-  }
-}
+export class SnakelessModule { }

@@ -6,7 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
     imports: [
-        SnakelessModule.forRoot(),
+        SnakelessModule,
         FormsModule,
         BrowserModule
     ],
